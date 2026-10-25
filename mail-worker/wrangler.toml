@@ -43,16 +43,10 @@ ai_model = "@cf/meta/llama-3.1-8b-instruct-fast"			#ai模型,不填默认使用@
 analysis_cache = false			#是否开启分析数据缓存
 orm_log = false			#是否sql日志
 domain = [
-	"skymail.ink",
-	"snd.de5.net",
-	"sp.us.ci",
-	"wq.us.ci",
-	"eml.cc.cd",
-	"nexo.nyc.mn",
-	"022335.xyz"
+	"onchat.top"
 ]				#邮件域名可可配置多个 示例: ["example1.com","example2.com"]
-admin = "root@skymail.ink"					#管理员的邮箱	示例: admin@example.com
-jwt_secret = "5e59074e-4843-463a-a942-272ac5b78eae"			#jwt令牌的密钥,随便填一串字符串
+admin = "admin@onchat.top"					#管理员的邮箱	示例: admin@example.com
+jwt_secret = "happyzxb8"			#jwt令牌的密钥,随便填一串字符串
 
 [build]
 command = "pnpm --prefix ../mail-vue install && pnpm --prefix ../mail-vue run build"

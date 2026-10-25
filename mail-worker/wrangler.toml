@@ -8,12 +8,12 @@ enabled = true
 
 [[d1_databases]]
 binding = "db"			#d1数据库绑定名默认不可修改
-database_name = "email"		#d1数据库名字
-database_id = "b1b1a63a-6ef5-4e6d-8e8c-b6d9e8feb810"		#d1数据库id
+database_name = "cloudmail"		#d1数据库名字
+database_id = "c62d01e7-e63c-4c8b-989d-c8078a7f892c"		#d1数据库id
 
 [[kv_namespaces]]
 binding = "kv"			#kv绑定名默认不可修改
-id = "0fa01d4b299e481b9de060ece9e7785c"					#kv数据库id
+id = "d678f559ebd84d26b965bafc3f2dc556"					#kv数据库id
 
 [[r2_buckets]]
 binding = "r2"			#r2对象存储绑定名默认不可修改

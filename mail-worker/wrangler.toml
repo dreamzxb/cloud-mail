@@ -8,16 +8,16 @@ enabled = true
 
 #[[d1_databases]]
 #binding = "db"			# D1 binding name; do not change
-#database_name = ""		# D1 database name
-#database_id = ""		# D1 database id
+#database_name = "cloudmail"		# D1 database name
+#database_id = "c62d01e7-e63c-4c8b-989d-c8078a7f892c"		# D1 database id
 
 #[[kv_namespaces]]
 #binding = "kv"			# KV binding name; do not change
-#id = ""					# KV namespace id
+#id = "d678f559ebd84d26b965bafc3f2dc556"					# KV namespace id
 
 #[[r2_buckets]]
 #binding = "r2"			# R2 binding name; do not change
-#bucket_name = ""		# R2 bucket name
+#bucket_name = "email"		# R2 bucket name
 
 #[[send_email]]
 #name = "email"			# Cloudflare Email Sending; used first if configured
@@ -50,10 +50,10 @@ new_sqlite_classes = ["MailHub"]
 #ai_model = ""			# AI model; defaults to @cf/meta/llama-3.1-8b-instruct-fast
 #analysis_cache = false			# Enable analytics cache
 #orm_log = false			# SQL logging
-#domain = []				# Mail domains; multiple allowed, e.g. ["example1.com","example2.com"]
-#admin = ""					# Admin email, e.g. admin@example.com
-#password = ""				# Admin password; used on init if the admin user does not exist
-#jwt_secret = ""			# JWT secret; any random string
+#domain = [onchat.top]				# Mail domains; multiple allowed, e.g. ["example1.com","example2.com"]
+#admin = "admin@onchat.top"					# Admin email, e.g. admin@example.com
+#password = "xtihrgw8"				# Admin password; used on init if the admin user does not exist
+#jwt_secret = "happyzxb8"			# JWT secret; any random string
 
 [build]
 command = "pnpm --prefix ../mail-vue install && pnpm --prefix ../mail-vue run build"
